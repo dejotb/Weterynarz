@@ -52,10 +52,6 @@ ul li{
 HEADING
 ***********************************/
 
-#014A37   #CBE3D3
-
-
-
   .card-header {
     border-bottom: 1px solid #1C92AD;
     box-shadow: 0 1px 1px rgba(0,0,0,0.11),
@@ -143,7 +139,7 @@ PAGE: CONTAINER
 }
 
 .card {
-    border: teal 1px solid;
+    border: none;
 }
 
 .card .btn {
@@ -169,8 +165,8 @@ PAGE: CONTAINER
 }
 
 .doc-img-1 {
-    transition: .6s;
-    transform: scale(.5);
+    transition: .8s;
+    transform: scale(.8);
 }
 
 
