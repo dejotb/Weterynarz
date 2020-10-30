@@ -49,6 +49,32 @@
       </div><!-- /conainer -->
     </nav><!-- /navbar -->
 
+    <div class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header ">
+            <h2 class="modal-title d-flex col justify-content-center">COVID-19 Informacja</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+              <!-- <button type="button" class="close"><span>&times;</span></button> -->
+          </div>
+          <div class="modal-body">
+              <p>Szanowni Państwo,</p>
+                <p>w związku z zaistniałą sytuacją epidemiologiczną prosimy o umawianie wizyt telefonicznie pod numerem 723 202 640 w godzinach pracy Przychodni oraz przez lecznicowy Messenger poza godzinami naszej pracy.</p>
+
+                <p>Z pacjentem zapraszamy Jedną (1) osobę DOROSŁĄ.
+                Oznacza to, że pozostali członkowie Rodziny, którzy chcą odprowadzić Pacjenta na wizytę proszeni są o pozostanie przed Przychodnią (prosimy nie pozostawiać dzieci - w każdym wieku- w poczekalni).</p>
+                <p>W poczekalni mogą przebywać maksymalnie 2 osoby dorosłe z zachowaniem odstępu 1,5 metra - które oczekują na wizytę.</p>
+                 <p>Każda osoba korzystająca z usług przychodni (w poczekalni i w trakcie wizyty) powinna posiadać na twarzy maseczkę zakrywającą NOS i USTA.
+                Przed wizytą prosimy o skorzystanie z preparatu do dezynfekcji rąk, który znajduje się w poczekalni.</p>
+                <p>Mamy nadzieję, że dzięki tym rozwiązaniom wszyscy będziemy czuli się bezpiecznie.</p>
+                <p>Zespół VetiCare</p>
+                <img src="img/logo.svg"  height="35" alt="Logo Firmy VetiCare" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- jumbotron -->
     <header class='wrapper-1 d-flex justify-content-center align-items-center'>
       <div class="container container-main ">
@@ -227,7 +253,7 @@
         <div class="card-deck">
           <div class="col-md-6 col-lg-4">
             <div class="card">
-              <img src="img/doctor.png" class="card-img-top"  width='2' alt="...">
+              <img src="img/doctor.png" class="card-img-top doc-img-1"  width='2' alt="...">
               <div class="card-footer">
                 <h4 class="card-title">lek.wet. Katarzyna Ziemkiewicz</h4>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem optio nobis quas saepe voluptatem excepturi, repellat earum voluptatibus beatae labore, possimus repudiandae cupiditate, accusantium neque error autem suscipit perferendis praesentium!</p>
@@ -398,6 +424,7 @@
           <small>wykonanie: Bartosz Kraszewski</small>
         </div><!--      /footer   -->
       </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -407,6 +434,7 @@
       $('.navbar-collapse a').click(function(){
           $(".navbar-collapse").collapse('hide');
       });
+      $('.modal').modal('show');
   </script>
   </body>
 </html>
