@@ -166,9 +166,12 @@ PAGE: CONTAINER
 
 .doc-img-1 {
     transition: .8s;
-    transform: scale(.8);
+    transform: scale(.7);
 }
 
+.carousel-item:hover {
+    transform: scale(1.1);
+}
 
 
 /**********************************
@@ -217,7 +220,6 @@ PSEUDO ELEMENTS
 }
 
 .phone-grow:hover  span {
-    transform: scale(1.05);
     color: white;
     margin-left: 1em;
 }
